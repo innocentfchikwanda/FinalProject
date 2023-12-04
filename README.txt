@@ -3,24 +3,23 @@ Bidirectional Text-to-Image Translation System
 Project Description
 Translateron is a bidirectional text-to-image machine translation system that allows for seamless translation between images and text which is an extremely useful feature in building universal language systems. Translateron is inspired to solve the limited availability of machine translation systems for low-resource languages especially those in Africa. Through the use of an a architecture that combines a diffusion model and a CNN-LSTM model, the translateron, makes in possible for the first time to use dynamic mono-lingual datasets that simply describe pictures in one language to optimize a universal language model. This is extremely important as it lowers the required skill level for data creation for machine translation systems for low-resource languages.
   
-
 High-level overview
   
-
-
-
 Low-level overview
 Youtube Link
 https://youtu.be/UO5VdlcAHTc
+GoogleDrive Link
+https://drive.google.com/drive/folders/1HfXVOsgeJqFlGbRfdM2GbHP8d3dUNJ-O?usp=sharing
 
 
 Model Development
 This project was developed using Jupyter Notebook and Google Colab. It is preferable to use Google Colab TPU or GPU for best performance. If you use CPU then it’s advisable to use Jupyter Notebook for best performance. The CNN-LSTM model is trained on the Flickr8K dataset and the diffusion model uses the Stable Diffusion opensource architecture. The web-application 
+
 Scope
 Even though the end objective of this project is to create a universal translation system this project will specifically focus on the foundational unit of the translation system which is the translateron: the image-to-text and text-to-image conversion model. We will aim to prove that it is possible to convert textual data into an image format, and be able to retrieve the textual meaning from the generated image. If this is proved, by induction it is possible to retrieve any other language from the hidden layer image interface, and therefore to convert between any two sets of languages.
-Setting Up The Notebook
-Find the link to the full project here.
 
+Setting Up The Notebook
+Find the link to the full project here: https://colab.research.google.com/drive/1lbkEhHIRyGZdpm3vnqO571DTSC99CFjy?usp=sharing
 
 TextToImage Model
 !pip install pillow
